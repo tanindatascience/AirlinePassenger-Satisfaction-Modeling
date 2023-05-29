@@ -1,4 +1,6 @@
-AIRLINE PASSENGER SATISFACTION FEEDBACK: EDA & LOGIT MODEL
+**AIRLINE PASSENGER SATISFACTION FEEDBACK: EDA & LOGIT MODEL**
+
+Customer satisfaction scores from 120,000+ airline passengers, including additional information about each passenger, their flight, and type of travel, as well as ther evaluation of different factors like cleanliness, comfort, service, and overall experience.
 
 Taken from Maven Analytics' Data Playground, this data contains feedback scores by airline passengers for various services offered by the airline company with the final feedback - 'Satisfied' or 'Neutral/Dissatisfied' also given by passengers. The main objective is to answer the following questions posed by Maven Analytics.
 1. Which percentage of airline passengers are satisfied? 
@@ -6,6 +8,17 @@ Taken from Maven Analytics' Data Playground, this data contains feedback scores 
 3. Does flight distance affect customer preferences or flight patterns?
 4. What are the features contributing to customer satisfaction the most?
 
+**DATA DICTIONARY**
+1. ID: Unique customer ID
+2. Gender: Male/Female
+3. Age: Integer values
+4. Customer Type: First time travelers or returning travelers
+5. Type of Travel: Business or Leisure
+6. Class: Business, Economy or Economy Plus
+7. Flight Distance, Departure Delay and Arrival Delay: All 3 are integer values
+8. All other categorical variables including 'Satisfaction', 'Check-In Service' etc.: These are marked on a scale of 0 to 5 with 0 being the worst feedback given by a passenger and 5 being the best.
+
+**TASK AT-HAND**
 Built data visualizations on MS Power BI post which I built a logit classification model to predict what factors determine a satisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
 Data visualizations on PBI:
 
@@ -15,7 +28,7 @@ Data visualizations on PBI:
 
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/65a45300-d8a8-464a-ad6b-cf01f75293a5)
 
-Results:
+**RESULTS**
 1. About 77% of the passengers were ‘Returning’ type of passengers. Of 1.3L passengers, 46% were ‘Business Class travelers, 42% were ‘Economy Class travelers and the remaining were ‘Economy Plus Class travelers. 
 2. The binary logit model was built with an accuracy of 88% and a precision of 87.3%:
 ‘Departure Delay’ and ‘Arrival Delay’ had extremely high VIF values (close to 14) and hence, were dropped. The logit model after dropping these variables had a significantly higher AIC value. Improving the ease of online boarding, their check-in services, on-board services, and their in-flight WiFi service results in an 80%, 37%, 35%, and 50% significant increase in the odds of customers feeling ‘Satisfied’. Cleanliness only led to a 24% increase in getting ‘Satisfied’ feedback and the ‘Personal’ type of travel led to a 93% decrease in the odds of receiving positive customer feedback. 
