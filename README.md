@@ -6,8 +6,11 @@ Taken from Maven Analytics' Data Playground, this data contains feedback scores 
 
 Built data visualizations on MS Power BI post which I built a logit classification model to predict what factors determine a satisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
 Data visualizations on PBI:
+
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/1fce2673-f5ac-44ff-be7a-639ed682b983)
+
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/51cdf1a9-6dd4-404a-bf4c-26ac8946d15b)
+
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/65a45300-d8a8-464a-ad6b-cf01f75293a5)
 
 Results:
