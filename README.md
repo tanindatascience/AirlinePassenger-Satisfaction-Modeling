@@ -19,8 +19,9 @@ Taken from Maven Analytics' Data Playground, this data contains feedback scores 
 8. All other categorical variables including 'Satisfaction', 'Check-In Service' etc.: These are marked on a scale of 0 to 5 with 0 being the worst feedback given by a passenger and 5 being the best.
 
 **TASK AT-HAND**
-Built data visualizations on MS Power BI post which I built a logit classification model to predict what factors determine a satisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
-Data visualizations on PBI:
+Built data visualizations on MS Power BI post which I built a logit classification model to predict what variables determine a satisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
+
+Data visualizations on MS Power BI:
 
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/1fce2673-f5ac-44ff-be7a-639ed682b983)
 
@@ -29,9 +30,11 @@ Data visualizations on PBI:
 ![image](https://github.com/tanindatascience/Multivariate-Regression-and-Predictive-Modeling/assets/131387030/65a45300-d8a8-464a-ad6b-cf01f75293a5)
 
 **RESULTS**
-1. About 77% of the passengers were ‘Returning’ type of passengers. Of 1.3L passengers, 46% were ‘Business Class travelers, 42% were ‘Economy Class travelers and the remaining were ‘Economy Plus Class travelers. 
+
+1. About 77% of the passengers were ‘Returning’ type of passengers. Of 1.3L passengers, 46% were 'Business Class' travelers, 42% were 'Economy Class' travelers and the remaining were 'Economy Plus Class' travelers. 
+
 2. The binary logit model was built with an accuracy of 88% and a precision of 87.3%:
 ‘Departure Delay’ and ‘Arrival Delay’ had extremely high VIF values (close to 14) and hence, were dropped. The logit model after dropping these variables had a significantly higher AIC value. Improving the ease of online boarding, their check-in services, on-board services, and their in-flight WiFi service results in an 80%, 37%, 35%, and 50% significant increase in the odds of customers feeling ‘Satisfied’. Cleanliness only led to a 24% increase in getting ‘Satisfied’ feedback and the ‘Personal’ type of travel led to a 93% decrease in the odds of receiving positive customer feedback. 
 
-Recommendation:
+**RECOMMENDATION**:
 The airline company should focus on retaining their economy and economy plus passengers by providing higher quality on-board services, in-flight entertainment, in-flight WiFi service, and easy online boarding services. They have a loyal returning Business travel base and hence, can turn their focus on Personal trip travelers.
