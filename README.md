@@ -1,3 +1,5 @@
+AIRLINE PASSENGER SATISFACTION FEEDBACK: EDA & LOGIT MODEL
+
 Taken from Maven Analytics' Data Playground, this data contains feedback scores by airline passengers for various services offered by the airline company with the final feedback - 'Satisfied' or 'Neutral/Dissatisfied' also given by passengers. The main objective is to answer the following questions posed by Maven Analytics.
 1. Which percentage of airline passengers are satisfied? 
 2. What is the customer profile for a repeating airline passenger?
