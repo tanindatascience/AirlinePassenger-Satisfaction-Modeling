@@ -127,8 +127,8 @@ auc <- round(auc, 4)
 legend(0.15,0.8, auc, title = "Area Under the Curve", cex = 0.7)
 
 #Results:
-#1.	About 77% of the passengers were 'Returning' type of passengers. From 1.3L passengers, 46% were 'Business Class' travellers, 42% were 'Economy Class' travellers and the remaining were 'Economy Plus Class' travellers. 
-#2.	'Departure Delay' and 'Arrival Delay' had extremely high VIF values (close to 14) and hence, were dropped. The logit model after dropping these variables had a significantly higher AIC value.
+#1.	About 77% of the passengers were 'Returning' type of passengers. Of 1.3L passengers, 46% were 'Business Class' travellers, 42% were 'Economy Class' travellers and the remaining were 'Economy Plus Class' travellers. 
+#2.	'Departure Delay' and 'Arrival Delay' had extremely high VIF values (close to 14) and were dropped. The logit model after dropping these variables had a significantly lower AIC value.
 #3.	Improving the ease of online boarding, their check-in services, on-board services and their in-flight WiFi service results in an 80%, 37%, 35% and 50% increase in the odds of customers feeling 'Satisfied'.  
-#4.	Cleanliness only led to a 24% increase in getting a 'Satisfied' feedback and the 'Personal' type of travel led to 93% decrease in the odds of receiving a positive customer feedback. This can also be corroborated with the fact that majority of the passengers from this data were traveling for Business.
+#4.	Cleanliness only led to a 24% increase in getting 'Satisfied' feedback and the 'Personal' type of travel led to a 93% decrease in the odds of receiving positive customer feedback. This can also be corroborated by the fact that the majority of the passengers from this data were traveling for Business.
 #5.	Some surprisingly insignificant factors in determining the overall satisfaction of passengers were gate's location, food and drink services, and the distance covered by the flight.
