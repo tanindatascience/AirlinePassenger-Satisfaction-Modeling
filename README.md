@@ -31,10 +31,12 @@ Data visualizations on MS Power BI:
 
 **RESULTS**
 
-1. About 77% of the passengers were ‘Returning’ type of passengers. Of 1.3L passengers, 46% were 'Business Class' travelers, 42% were 'Economy Class' travelers and the remaining were 'Economy Plus Class' travelers. 
+1. About 77% of the passengers were ‘Returning’ type of passengers. Of 1.3L passengers, 46% were 'Business Class' travellers, 42% were 'Economy Class' travellers and the remaining were 'Economy Plus Class' travellers. 
 
 2. The binary logit model was built with an accuracy of 88% and a precision of 87.3%:
 ‘Departure Delay’ and ‘Arrival Delay’ had extremely high VIF values (close to 14) and hence, were dropped. The logit model after dropping these variables had a significantly lower AIC value. Improving the ease of online boarding, their check-in services, on-board services, and their in-flight WiFi service results in an 80%, 37%, 35%, and 50% significant increase in the odds of customers feeling ‘Satisfied’. Cleanliness only led to a 24% increase in getting ‘Satisfied’ feedback and the ‘Personal’ type of travel led to a 93% decrease in the odds of receiving positive customer feedback. 
 
 **RECOMMENDATION**:
-The airline company should focus on retaining their economy and economy plus passengers by providing higher quality on-board services, in-flight entertainment, in-flight WiFi service, and easy online boarding services. They have a loyal returning Business travel base and hence, can turn their focus on Personal trip travelers.
+The airline company should focus on retaining their economy and economy plus passengers by providing higher quality on-board services, in-flight entertainment, in-flight WiFi service, and easy online boarding services. They have a loyal returning Business travel base and hence, can turn their focus on Personal trip travellers.
+A point to be noted here is that business class travellers usually are of the 'Returning' type since they have to frequently travel. Hence, it is likely that they will form the majority of the 'Returning' class. The airline can move its focus and perform a cost analysis to understand the leverage it could potentially have over other airlines for attracting and retaining economy and economy-plus passengers. 
+Providing cheaper tickets might not be the precise solution since that will lead to further losses and there will always be another airline that could provide much cheaper tickets by using the advantage of more accessibility to tier-3 cities etc. Thus, a cost analysis at this stage will provide further insights into the quality of services provided to the said passengers. The cost analysis will open further scope for deep-diving into quality control checks on particular services that passengers prefer with this airline over others - which also leads me to suggest a competitor analysis to check where this airline stands with its ticket prices and quality of customer service.
