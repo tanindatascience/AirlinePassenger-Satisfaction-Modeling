@@ -1,6 +1,6 @@
 **AIRLINE PASSENGER SATISFACTION FEEDBACK: EDA & LOGIT MODEL**
 
-Customer satisfaction scores from 120,000+ airline passengers, including additional information about each passenger, their flight, and type of travel, as well as ther evaluation of different factors like cleanliness, comfort, service, and overall experience.
+Customer satisfaction scores from 120,000+ airline passengers, including additional information about each passenger, their flight, and type of travel, and their evaluation of different factors like cleanliness, comfort, service, and overall experience.
 
 Taken from Maven Analytics' Data Playground, this data contains feedback scores by airline passengers for various services offered by the airline company with the final feedback - 'Satisfied' or 'Neutral/Dissatisfied' also given by passengers. The main objective is to answer the following questions posed by Maven Analytics.
 1. Which percentage of airline passengers are satisfied? 
@@ -12,14 +12,14 @@ Taken from Maven Analytics' Data Playground, this data contains feedback scores 
 1. ID: Unique customer ID
 2. Gender: Male/Female
 3. Age: Integer values
-4. Customer Type: First time travelers or returning travelers
+4. Customer Type: First-time travellers or returning travellers
 5. Type of Travel: Business or Leisure
 6. Class: Business, Economy or Economy Plus
 7. Flight Distance, Departure Delay and Arrival Delay: All 3 are integer values
 8. All other categorical variables including 'Satisfaction', 'Check-In Service' etc.: These are marked on a scale of 0 to 5 with 0 being the worst feedback given by a passenger and 5 being the best.
 
-**TASK AT-HAND**
-Built data visualizations on MS Power BI post which I built a logit classification model to predict what variables determine a satisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
+**TASK AT HAND**
+Built data visualizations on MS Power BI post which I built a logit classification model to predict what variables determine a satisfactory or a dissatisfactory travel experience and how accurately can a passenger's feedback be predicted so that the airline can improve its services accordingly. 
 
 Data visualizations on MS Power BI:
 
@@ -37,6 +37,6 @@ Data visualizations on MS Power BI:
 ‘Departure Delay’ and ‘Arrival Delay’ had extremely high VIF values (close to 14) and hence, were dropped. The logit model after dropping these variables had a significantly lower AIC value. Improving the ease of online boarding, their check-in services, on-board services, and their in-flight WiFi service results in an 80%, 37%, 35%, and 50% significant increase in the odds of customers feeling ‘Satisfied’. Cleanliness only led to a 24% increase in getting ‘Satisfied’ feedback. 
 
 **RECOMMENDATION**:
-The airline company should focus on retaining their economy and economy plus passengers by providing higher quality on-board services, in-flight entertainment, in-flight WiFi service, and easy online boarding services. They have a loyal returning Business travel base and hence, can turn their focus on Personal trip travellers.
-A point to be noted here is that business class travellers usually are of the 'Returning' type since they have to frequently travel. Hence, it is likely that they will form the majority of the 'Returning' class. The airline can move its focus and perform a cost analysis to understand the leverage it could potentially have over other airlines for attracting and retaining economy and economy-plus passengers. 
-Providing cheaper tickets might not be the precise solution since that will lead to further losses and there will always be another airline that could provide much cheaper tickets by using the advantage of more accessibility to tier-3 cities etc. Thus, a cost analysis at this stage will provide further insights into the quality of services provided to the said passengers. The cost analysis will open further scope for deep-diving into quality control checks on particular services that passengers prefer with this airline over others - which also leads me to suggest a competitor analysis to check where this airline stands with its ticket prices and quality of customer service.
+The airline company should focus on retaining their economy and economy plus passengers by providing higher quality on-board services, in-flight entertainment & WiFi, and easy online boarding services. They have a loyal recurring Business Class customer base and can afford to shift a bit more of their focus on leisure trip travellers.
+Just so you know, business class travellers usually are of the 'Returning' type since they have to travel frequently. Hence, it is likely that they will form the majority of the 'Returning' class of passengers. The airline can perform a cost analysis to understand the leverage it could potentially have over other airlines for attracting and retaining economy and economy-plus leisure travel passengers. 
+Providing cheaper tickets might not be the only solution since that will lead to further losses adding to the fact that there will always be another airline that could provide much cheaper tickets by using the advantage of more accessibility to tier-3 cities etc. Thus, a cost analysis at this stage will provide further insights into the quality of the aforementioned services provided to passengers. The cost analysis will open further scope for deep-diving into quality control checks on particular services that passengers prefer with this airline over others - which also leads me to suggest a competitor analysis to check where this airline stands with its ticket prices and customer service metrics.
